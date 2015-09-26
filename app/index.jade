@@ -45,7 +45,103 @@ html.no-js
     script(src='bower_components/modernizr/modernizr.js')
     // endbuild
   body
-    
+    header.hero
+      .bound
+        h1.tagline The simplest way to write on any device and keep everything in sync.
+        a.btn_large_blue(href="https://app.simplenote.com/signup") Get started free
+    hr
+    #features
+      section#simplicity.feature
+        .bound
+          h2 Only the features you need.
+          p Simplenote is designed to get out of the way so you can be more productive. We’ve emphasized speed and clarity, creating a beautiful writing app with zero bloat. Let your thoughts flow, free of distractions.
+          img(src="images/app-ui-dark.png", alt="Writing on Simplenote for Mac")
+      hr
+      section#sync.feature
+        .bound
+          h2 Sync notes across all your devices.
+          p From the start, Simplenote was built with sync in mind. Type a note on your iPhone, watch it magically update on your Mac. Simplenote elegantly handles the compexity of managing updates and saving versions, so you can write with confidence.
+          img(src="images/feature-sync.png", alt="With Simplenote, sync just works.")
+      hr
+      section#organized.feature
+        .bound
+          h2 Stay organized.
+          p With instantaneous search, tags and full version history on each note, finding notes and keeping all of your work in order is a breeze. 
+          img(src="images/app-ui-light.png", alt="Searching and tagging notes is fast and easy with Simplenote.")
+      hr
+    section.users
+      .bound
+          h2 Users Love Simplenote.
+      .slider
+        .slider-item.mullenweg
+          .bound
+            blockquote.testimonial
+              p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
+              cite.source Matt Mullenweg, Founder @ Automattic
+        .slider-item.koenig
+          .bound
+            blockquote.testimonial
+              p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
+              cite.source Sarah Koenig, Host of Serial
+        .slider-item.gruber
+          .bound
+            blockquote.testimonial
+              p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
+              cite.source John Gruber, Daring Fireball
+    hr
+    section#apps.native-apps.feature
+      .bound
+        h2 Take Simplenote with you.
+        p No matter what device you write on, we’ve got you covered. Simplenote offers a gorgeous web app for any device, as well as native apps for iOS, Android and Mac.
+        img(src="images/native-apps.png", alt="Simplenote has native apps for iOS, Android and Mac.")
+        .get-simplenote
+          ul.links_app-download
+            li: a.btn_blue.android(href="https://play.google.com/store/apps/details?id=com.automattic.simplenote") Android
+            li: a.btn_blue.mac(href="https://itunes.apple.com/us/app/simplenote/id692867256?ls=1&mt=12") Mac
+            li: a.btn_blue.ios(href="https://itunes.apple.com/app/simplenote/id289429962") iOS
+          p
+            | Or use Simplenote on the web, on any device.
+            a.btn_green.arrow(href="https://app.simplenote.com/signin") Sign in to Simplenote
+    section.free-forever
+      .bound
+        h2 Free, forever.
+        p Simplenote is powered by Automattic, the company behind WordPress. Simplenote is well-supported, regularly updated, and we're committed to having Simplenote be free forever.
+        a.btn_large_blue(href="https://app.simplenote.com/signup") Sign up for free
+    hr
+    nav.global(role="navigation")
+      a.logo(href="http://simplenote.com/")
+      ul.global-nav
+        li: a(href="#features") Features
+        li: a(href="#apps") Apps
+        li: a(href="http://simplenote.com/help/") Support
+        li: a(href="http://simplenote.com/blog/") Blog
+        li.sign-in: a(href="https://app.simplenote.com/signin") Sign in
+        li.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
+        li.mobile-nav: a.btn_outline_white(href="#") Menu
+    nav.global.fixed(aria-hidden="true", role="navigation")
+      a.logo(href="http://simplenote.com/")
+      ul.global-nav
+        li: a(href="#features") Features
+        li: a(href="#apps") Apps
+        li: a(href="http://simplenote.com/help/") Support
+        li: a(href="http://simplenote.com/blog/") Blog
+        li.sign-in: a(href="https://app.simplenote.com/signin") Sign in
+        li.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
+        li.mobile-nav: a.btn_outline_white(href="#") Menu
+    footer.colophon
+      .bound
+        .copyright
+          | © 2015 
+          a(href="http://automattic.com") Automattic
+        nav.site-info(role="navigation")
+          ul
+            li: a(href="") Help
+            li: a(href="") Contact Us
+            li: a(href="") Blog
+            li: a(href="") Developers
+            li: a(href="") Terms
+            li: a(href="") Privacy
+
     // build:js(.) scripts/vendor.js
     // bower:js
     script(src='bower_components/jquery/dist/jquery.js')
