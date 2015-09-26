@@ -52,6 +52,10 @@ module.exports = function (grunt) {
         files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['sass:server', 'autoprefixer']
       },
+      jade: {
+        files: ['<%= yeoman.app %>/{,*/}*.jade'],
+        tasks: ['jade']
+      },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
@@ -173,6 +177,22 @@ module.exports = function (grunt) {
           ext: '.css'
         }]
       }
+    },
+
+    // Compiles Jade
+    jade: {
+        dist: {
+            options: {
+                pretty: true
+            },
+            files: [{
+                expand: true,
+                cwd: '<%= config.app %>',
+                dest: '.tmp',
+                src: '*.jade',
+                ext: '.html'
+            }]
+        }
     },
 
     // Add vendor prefixed styles
@@ -388,6 +408,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer',
+      'jade',
       'connect:livereload',
       'watch'
     ]);
@@ -420,6 +441,7 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'autoprefixer',
     'concat',
+    'jade',
     'cssmin',
     'uglify',
     'copy:dist',
