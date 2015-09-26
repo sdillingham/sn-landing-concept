@@ -53,7 +53,7 @@ module.exports = function (grunt) {
         tasks: ['sass:server', 'autoprefixer']
       },
       jade: {
-        files: ['<%= yeoman.app %>/{,*/}*.jade'],
+        files: ['<%= config.app %>/{,*/}*.jade'],
         tasks: ['jade']
       },
       styles: {
@@ -65,7 +65,9 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
+          '.tmp/{,*/}*.html',
           '<%= config.app %>/{,*/}*.html',
+          '<%= config.app %>/{,*/}*.jade',
           '.tmp/styles/{,*/}*.css',
           '<%= config.app %>/images/{,*/}*'
         ]
