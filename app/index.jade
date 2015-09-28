@@ -55,7 +55,7 @@ html.no-js
         .bound
           h2 Only the features you need.
           p Simplenote is designed to get out of the way so you can be more productive. We’ve emphasized speed and clarity, creating a beautiful writing app with zero bloat. Let your thoughts flow, free of distractions.
-          img(src="images/app-ui-dark.png", alt="Writing on Simplenote for Mac")
+          img(src="images/app-ui-dark.svg", alt="Writing on Simplenote for Mac")
       hr
       section#sync.feature
         .bound
@@ -67,7 +67,7 @@ html.no-js
         .bound
           h2 Stay organized.
           p With instantaneous search, tags and full version history on each note, finding notes and keeping all of your work in order is a breeze. 
-          img(src="images/app-ui-light.png", alt="Searching and tagging notes is fast and easy with Simplenote.")
+          img(src="images/app-ui-light.svg", alt="Searching and tagging notes is fast and easy with Simplenote.")
       hr
     section.users
       .bound
@@ -110,24 +110,26 @@ html.no-js
     hr
     nav.global(role="navigation")
       a.logo(href="http://simplenote.com/")
+        img(src="images/logo.svg", alt="Simplenote")
       ul.global-nav
-        li: a(href="#features") Features
-        li: a(href="#apps") Apps
-        li: a(href="http://simplenote.com/help/") Support
-        li: a(href="http://simplenote.com/blog/") Blog
-        li.sign-in: a(href="https://app.simplenote.com/signin") Sign in
-        li.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
-        li.mobile-nav: a.btn_outline_white(href="#") Menu
+        li.nav-item: a(href="#features") Features
+        li.nav-item: a(href="#apps") Apps
+        li.nav-item: a(href="http://simplenote.com/help/") Support
+        li.nav-item: a(href="http://simplenote.com/blog/") Blog
+        li.nav-item.sign-in: a(href="https://app.simplenote.com/signin") Sign in
+        li.nav-item.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
+        li.nav-item.mobile-nav: a.btn_outline_white(href="#") Menu
     nav.global.fixed(aria-hidden="true", role="navigation")
       a.logo(href="http://simplenote.com/")
+        img(src="images/logo.svg", alt="Simplenote")
       ul.global-nav
-        li: a(href="#features") Features
-        li: a(href="#apps") Apps
-        li: a(href="http://simplenote.com/help/") Support
-        li: a(href="http://simplenote.com/blog/") Blog
-        li.sign-in: a(href="https://app.simplenote.com/signin") Sign in
-        li.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
-        li.mobile-nav: a.btn_outline_white(href="#") Menu
+        li.nav-item: a(href="#features") Features
+        li.nav-item: a(href="#apps") Apps
+        li.nav-item: a(href="http://simplenote.com/help/") Support
+        li.nav-item: a(href="http://simplenote.com/blog/") Blog
+        li.nav-item.sign-in: a(href="https://app.simplenote.com/signin") Sign in
+        li.nav-item.sign-up: a.btn_outline_white(href="https://app.simplenote.com/signup") Create an account
+        li.nav-item.mobile-nav: a.btn_outline_white(href="#") Menu
     footer.colophon
       .bound
         .copyright

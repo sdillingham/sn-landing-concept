@@ -1,0 +1,26 @@
+.btn {
+  border-radius: 4px;
+  color: $white;
+  display: inline-block;
+  line-height: 1em;
+  text-align: center;
+
+  &_large_blue {
+    @extend .btn;
+    background: $brand-color;
+    border: 1px solid #98CEFF;
+    font-size: em(26);
+    font-weight: 600;
+    padding: 18px 46px;
+    &:hover { background: darken($brand-color, 10%); }
+  }
+  &_outline_white {
+    @extend .btn;
+    border: 1px solid $white;
+    padding: 7px 14px 8px;
+    &:hover {
+      background: $brand-color;
+      border: 1px solid #98CEFF;
+    }
+  }
+}

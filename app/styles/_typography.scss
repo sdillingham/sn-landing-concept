@@ -1,0 +1,13 @@
+// Set body font
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tagline {
+  font-size: em(54);
+  font-weight: 300;
+  line-height: $grid-height * 2; // 64px
+  margin: 0 0 $grid-height;
+  text-shadow: 0 0 4px rgba($black, 0.55);
+}

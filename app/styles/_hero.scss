@@ -1,0 +1,13 @@
+.hero {
+  background: url('../images/hero-bg.jpg') no-repeat center center;
+  background-size: cover;
+  color: $white;
+  margin-bottom: grid-height(4);
+  min-height: grid-height(16);
+  padding-top: grid-height(4);
+  text-align: center;
+
+  .bound {
+    max-width: grid-calc(8);
+  }
+}

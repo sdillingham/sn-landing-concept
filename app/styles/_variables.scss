@@ -16,6 +16,6 @@ $bp-med         : 580px;
 $bp-large       : 1024px;
 
 // Grid variables
-$grid-col       : 5em;
-$grid-gutter    : 1.375em;
+$grid-col       : em(80);
+$grid-gutter    : em(40);
 $grid-height    : 32px;
