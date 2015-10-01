@@ -1,0 +1,65 @@
+.feature {
+  overflow: hidden;
+  position: relative;
+}
+.users {
+  text-align: center;
+  .bound {
+    padding-top: grid-height(1);
+    position: relative;
+    z-index: 2;
+  }
+}
+.free-forever {
+  background: url('../images/free-forever-bg.jpg') no-repeat center top;
+  background-size: cover;
+  padding: grid-height(3) 0 grid-height(5);
+  text-align: center;
+  .prose { margin-bottom: grid-height(2); }
+}
+
+#simplicity, #organized {
+  min-height: grid-height(16);
+  .bound {
+    max-width: grid-calc(8);
+    padding-right: grid-calc(4.5);
+    text-align: right;
+  }
+  img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+  }
+}
+#sync {
+  background: $pale-gray;
+  padding: grid-height(1) 0 grid-height(2);
+  text-align: center;
+  img {
+    margin: grid-height(2) auto 0;
+  }
+}
+#organized {
+  min-height: grid-height(18);
+  padding: grid-height(3) 0 0;
+  img {
+    top: -150px;
+  }
+}
+#apps {
+  padding: grid-height(1) 0 grid-height(3);
+  text-align: center;
+  img {
+    margin-top: grid-height(2);
+  }
+  .links_app-download {
+    border-bottom: 1px solid $light-gray;
+    list-style: none;
+    margin: 0;
+    padding: grid-height(1) 0;
+    li {
+      display: inline-block;
+      width: 33%;
+    }
+  }
+}

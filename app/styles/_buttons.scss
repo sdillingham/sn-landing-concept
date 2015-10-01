@@ -4,15 +4,22 @@
   display: inline-block;
   line-height: 1em;
   text-align: center;
-
-  &_large_blue {
+  &_blue {
     @extend .btn;
+    background: $brand-color-bright;
+    font-size: em(16);
+    font-weight: 600;
+    padding: 9px 32px;
+    width: 160px;
+    &:hover { background: darken($brand-color, 10%); }
+  }
+  &_large_blue {
+    @extend .btn, .btn_blue;
     background: $brand-color;
     border: 1px solid #98CEFF;
     font-size: em(26);
-    font-weight: 600;
     padding: 18px 46px;
-    &:hover { background: darken($brand-color, 10%); }
+    width: auto;
   }
   &_outline_white {
     @extend .btn;
