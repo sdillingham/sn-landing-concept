@@ -1,5 +1,8 @@
 .colophon {
   margin-top: grid-height(-1) + -8px;
+  @media screen and (max-width: 600px) {
+    margin-top: grid-height(-2) + -18px;
+  }
 }
   a {
     @extend .copyright;
@@ -16,5 +19,14 @@
     font-size: em(15);
     position: absolute;
     right: 0;
-    top: 0
+    top: 0;
+    @media screen and (max-width: 600px) {
+      margin-top: 12px;
+      position: relative;
+      right: auto;
+      top: auto;
+    }
   }
+    .footer-nav {
+      padding-left: 0;
+    }

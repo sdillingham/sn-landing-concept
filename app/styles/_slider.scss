@@ -1,11 +1,20 @@
 .slider {
-  margin-top: grid-height(-2);
+  margin-top: grid-height(-3);
   min-height: grid-height(15);
   overflow: hidden;
   position: relative;
   z-index: 1;
+  @media screen and (max-width: 480px) {
+    min-height: grid-height(12);
+  }
+  .bound {
+    max-width: grid-calc(8);
+  }
 }
-  .slider-item {
+  .heading_light_caps {
+    margin-top: 0;
+  }
+  .slider_item {
     position: absolute;
     top: 0;
     width: 100%;
@@ -13,5 +22,10 @@
     &.mullenweg {
       background: url('../images/user-mullenweg.jpg') no-repeat center top;
       background-size: cover;
+      z-index: 200;
+      @media screen and (max-width: 700px) {
+        background: url('../images/user-mullenweg.jpg') no-repeat -100px top;
+        background-size: cover;
+      }
     }
   }

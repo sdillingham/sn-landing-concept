@@ -61,7 +61,7 @@ html.no-js
         .bound
           h2.heading Sync notes across all your devices.
           p.prose From the start, Simplenote was built with sync in mind. Type a note on your iPhone, watch it magically update on your Mac. Simplenote elegantly handles the compexity of managing updates and saving versions, so you can write with confidence.
-        img(src="images/feature-sync.png", alt="With Simplenote, sync just works.")
+        img(src="images/feature-sync.svg", alt="With Simplenote, sync just works.")
       hr
       section#organized.feature
         .bound
@@ -71,19 +71,19 @@ html.no-js
       hr
     section.users
       .bound
-          h2.heading Users Love Simplenote.
+          h2.heading_light_caps Users Love Simplenote.
       .slider
-        .slider-item.mullenweg
+        .slider_item.mullenweg
           .bound
             blockquote.testimonial
               p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
               cite.source Matt Mullenweg, Founder @ Automattic
-        .slider-item.koenig
+        .slider_item.koenig
           .bound
             blockquote.testimonial
               p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
               cite.source Sarah Koenig, Host of Serial
-        .slider-item.gruber
+        .slider_item.gruber
           .bound
             blockquote.testimonial
               p.quote I write almost everything in Simplenote, just because it’s so uncluttered. I love that it syncs across my devices too.
@@ -93,15 +93,27 @@ html.no-js
       .bound
         h2.heading Take Simplenote with you.
         p.prose No matter what device you write on, we’ve got you covered. Simplenote offers a gorgeous web app for any device, as well as native apps for iOS, Android and Mac.
-        img(src="images/native-apps.png", alt="Simplenote has native apps for iOS, Android and Mac.")
+        img.apps-image(src="images/native-apps.svg", alt="Simplenote has native apps for iOS, Android and Mac.")
         .get-simplenote
           ul.links_app-download
-            li: a.btn_blue.android(href="https://play.google.com/store/apps/details?id=com.automattic.simplenote") Android
-            li: a.btn_blue.mac(href="https://itunes.apple.com/us/app/simplenote/id692867256?ls=1&mt=12") Mac
-            li: a.btn_blue.ios(href="https://itunes.apple.com/app/simplenote/id289429962") iOS
-          p
-            | Or use Simplenote on the web, on any device.
-            a.btn_green.arrow(href="https://app.simplenote.com/signin") Sign in to Simplenote
+            li: a.btn_blue.android(href="https://play.google.com/store/apps/details?id=com.automattic.simplenote") 
+              span
+                img.btn_icon.android(src="images/icon-android.svg")
+                | Android
+            li: a.btn_blue.mac(href="https://itunes.apple.com/us/app/simplenote/id692867256?ls=1&mt=12")
+              span
+                img.btn_icon.mac(src="images/icon-mac.svg")
+                | Mac
+            li: a.btn_blue.ios(href="https://itunes.apple.com/app/simplenote/id289429962")
+              span
+                img.btn_icon.ios(src="images/icon-ios.svg")
+                | iOS
+          p.web
+            span.callout Or use Simplenote on the web, on any device.
+            a.btn_green.arrow(href="https://app.simplenote.com/signin")
+              span
+                | Sign in to Simplenote
+                img.btn_icon(src="images/icon-arrow.svg")
     section.free-forever
       .bound
         h2.heading_light_emphasized Free, forever.

@@ -9,6 +9,10 @@ body {
   line-height: $grid-height * 2; // 64px
   margin: 0 0 $grid-height;
   text-shadow: 0 0 4px rgba($black, 0.55);
+  @media screen and (max-width: 600px) {
+    font-size: em(36);
+    line-height: $grid-height * 1.4;
+  }
 }
 .heading {
   color: $brand-color;
@@ -19,6 +23,16 @@ body {
     @extend .heading;
     color: $white;
     font-size: em(36);
+  }
+  &_light_caps {
+    @extend .heading;
+    color: $white;
+    font-size: em(26);
+    font-weight: 600;
+    text-transform: uppercase;
+    @media screen and (max-width: 480px) {
+      font-size: em(20);
+    }
   }
 }
 .prose {
@@ -32,5 +46,35 @@ body {
     font-size: em(21);
     font-weight: 400;
     line-height: 32px;
+  }
+}
+.callout {
+  font-size: em(24);
+  font-weight: 300;
+}
+.testimonial {
+  @media screen and (max-width: 600px) {
+    margin: 0;
+  }
+}
+.quote {
+  color: $white;
+  font-size: em(41);
+  font-style: italic;
+  line-height: 54px;
+  margin: 100px 0 24px;
+  @media screen and (max-width: 600px) {
+    font-size: em(22);
+    line-height: 24px;
+  }
+}
+.source {
+  color: $brand-color-light;
+  font-size: em(18);
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  @media screen and (max-width: 600px) {
+    font-size: em(16);
   }
 }

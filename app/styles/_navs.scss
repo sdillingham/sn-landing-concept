@@ -21,6 +21,9 @@
     .nav-item { 
       display: inline-block;
       margin-left: 58px;
+      @media screen and (max-width: 1000px) {
+        display: none;
+      }
       a:not(.btn_outline_white) {
         color: $white;
         display: inline-block;
@@ -34,6 +37,9 @@
     }
     .mobile-nav {
       display: none;
+      @media screen and (max-width: 1000px) {
+        display: block;
+      }
     }
 
 .footer-nav {
@@ -43,5 +49,8 @@
   li {
     display: inline-block;
     margin-left: 18px;
+    @media screen and (max-width: 600px) {
+      margin: 0 18px 0 0;
+    }
   }
 }

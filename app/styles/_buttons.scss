@@ -9,15 +9,27 @@
     background: $brand-color-bright;
     font-size: em(16);
     font-weight: 600;
-    padding: 9px 32px;
+    padding: 8px 32px 0;
     width: 160px;
+    height: 38px;
     &:hover { background: darken($brand-color, 10%); }
+  }
+  &_green {
+    @extend .btn;
+    background: $accent-color;
+    font-size: em(16);
+    font-weight: 600;
+    padding: 0px;
+    width: 218px;
+    height: 38px;
+    &:hover { background: darken($accent-color, 10%); }
   }
   &_large_blue {
     @extend .btn, .btn_blue;
     background: $brand-color;
     border: 1px solid #98CEFF;
     font-size: em(26);
+    height: auto;
     padding: 18px 46px;
     width: auto;
   }
@@ -31,3 +43,11 @@
     }
   }
 }
+  .btn_icon {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    &.android { margin-top: -3px; }
+    &.mac { margin-top: -6px; }
+    &.ios { margin-top: -5px; }
+  }
