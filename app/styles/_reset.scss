@@ -83,7 +83,7 @@ body {
  */
 
 a:focus {
-    outline: thin dotted;
+    outline: none;
 }
 
 /*
@@ -280,6 +280,7 @@ textarea {
 button,
 input {
     line-height: normal;
+    outline: none;
 }
 
 /*

@@ -1,8 +1,6 @@
 .slider {
   margin-top: grid-height(-3);
   min-height: grid-height(15);
-  overflow: hidden;
-  position: relative;
   z-index: 1;
   @media screen and (max-width: 480px) {
     min-height: grid-height(12);
@@ -11,19 +9,110 @@
     max-width: grid-calc(8);
   }
 }
+  .slick-arrow {
+    background: rgba(255,255,255,0.38);
+    border: 0;
+    position: absolute;
+    margin-top: -48px;
+    top: 50%;
+    z-index: 20;
+    width: 64px;
+    height: 96px;
+    &:hover {
+      background: rgba(255,255,255,0.50);
+    }
+    @media screen and (max-width: 800px) {
+      top: auto;
+      bottom: 20px;
+      margin-top: 0;
+      width: 44px;
+      height: 44px;
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+  .slick-next {
+    right: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    @media screen and (max-width: 800px) {
+      border-radius: 4px;
+      right: 20px;
+      img {
+        margin-left: 9px !important;
+      }
+    }
+    img {
+      margin-left: 15px;
+    }
+  }
+  .slick-prev {
+    left: 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    @media screen and (max-width: 800px) {
+      border-radius: 4px;
+      left: auto;
+      right: 70px;
+      img {
+        margin-left: 6px !important;
+      }
+    }
+    img {
+      margin-left: 10px;
+    }
+  }
+  .slick-dots {
+    list-style: none;
+    margin: 0 0 0 -27px;
+    padding: 0;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    width: 60px;
+    @media screen and (max-width: 800px) {
+      left: 0;
+      margin: 0 0 0 20px;
+    }
+    li {
+      display: inline-block;
+      margin: 0 4px;
+      &.slick-active button {
+        background: rgba(255,255,255,0.75);
+      }
+      button {
+        @include hide-text;
+        background: rgba(255,255,255,0.31);
+        border: 0;
+        border-radius: 12px; 
+        color: transparent;
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
   .heading_light_caps {
     margin-top: 0;
   }
   .slider_item {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    @media screen and (max-width: 880px) {
+      .overlay {
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+      }
+    }
     &.mullenweg {
       background: url('../images/user-mullenweg.jpg') no-repeat center top;
       background-size: cover;
       z-index: 200;
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 880px) {
         background: url('../images/user-mullenweg.jpg') no-repeat -100px top;
         background-size: cover;
       }
@@ -32,7 +121,7 @@
       background: url('../images/user-koenig.jpg') no-repeat center top;
       background-size: cover;
       z-index: 199;
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 880px) {
         background: url('../images/user-koenig.jpg') no-repeat right top;
         background-size: cover;
       }
@@ -41,7 +130,7 @@
       background: url('../images/user-gruber.jpg') no-repeat center top;
       background-size: cover;
       z-index: 198;
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 880px) {
         background: url('../images/user-gruber.jpg') no-repeat right top;
         background-size: cover;
       }

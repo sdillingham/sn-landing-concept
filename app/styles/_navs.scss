@@ -40,7 +40,16 @@
       @media screen and (max-width: 1000px) {
         display: block;
       }
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
     }
+      .mobile-nav-label {
+        display: inline-block;
+        margin: -2px 0 0 5px;
+        vertical-align: middle;
+      }
 
 .footer-nav {
   display: inline-block;
@@ -50,7 +59,8 @@
     display: inline-block;
     margin-left: 18px;
     @media screen and (max-width: 600px) {
-      margin: 0 18px 0 0;
+      display: block;
+      margin: 0 0 18px 0;
     }
   }
 }

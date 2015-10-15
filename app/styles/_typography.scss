@@ -53,6 +53,7 @@ body {
   font-weight: 300;
 }
 .testimonial {
+  margin-bottom: grid-height(5);
   @media screen and (max-width: 600px) {
     margin: 0;
   }

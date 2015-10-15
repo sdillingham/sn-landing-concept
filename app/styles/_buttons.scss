@@ -13,6 +13,10 @@
     width: 160px;
     height: 38px;
     &:hover { background: darken($brand-color, 10%); }
+    @media screen and (max-width: 600px) {
+      width: 240px;
+      height: 40px;
+    }
   }
   &_green {
     @extend .btn;
@@ -23,6 +27,10 @@
     width: 218px;
     height: 38px;
     &:hover { background: darken($accent-color, 10%); }
+    @media screen and (max-width: 600px) {
+      width: 240px;
+      height: 40px;
+    }
   }
   &_large_blue {
     @extend .btn, .btn_blue;

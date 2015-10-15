@@ -1,7 +1,9 @@
 .colophon {
   margin-top: grid-height(-1) + -8px;
   @media screen and (max-width: 600px) {
-    margin-top: grid-height(-2) + -18px;
+    background: $brand-color;
+    margin-top: 0;
+    padding-top: grid-height(1);
   }
 }
   a {
