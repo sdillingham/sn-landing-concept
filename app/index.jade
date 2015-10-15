@@ -33,7 +33,9 @@ html.no-js
     meta(name='twitter:app:id:googleplay', content='com.automattic.simplenote')
     meta(name='twitter:creator', content='@simplenoteapp')
 
+    // build:css(.) styles/vendor.css
     // bower:css
+    link(rel="stylesheet", href="bower_components/slick-carousel/slick/slick.css")
     // endbower
     // endbuild
     // build:css(.tmp) styles/main.css
@@ -158,6 +160,7 @@ html.no-js
     // build:js(.) scripts/vendor.js
     // bower:js
     script(src='bower_components/jquery/dist/jquery.js')
+    script(src='bower_components/slick-carousel/slick/slick.js')
     // endbower
     // endbuild
     // Google Analytics: change UA-XXXXX-X to be your site's ID.

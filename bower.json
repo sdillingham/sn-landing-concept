@@ -5,6 +5,7 @@
     "jquery": "~1.11.1",
     "modernizr": "~2.8.2",
     "bourbon": "~4.2.5",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "slick-carousel": "slick.js#~1.5.8"
   }
 }

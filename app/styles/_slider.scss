@@ -28,4 +28,22 @@
         background-size: cover;
       }
     }
+    &.koenig {
+      background: url('../images/user-koenig.jpg') no-repeat center top;
+      background-size: cover;
+      z-index: 199;
+      @media screen and (max-width: 700px) {
+        background: url('../images/user-koenig.jpg') no-repeat right top;
+        background-size: cover;
+      }
+    }
+    &.gruber {
+      background: url('../images/user-gruber.jpg') no-repeat center top;
+      background-size: cover;
+      z-index: 198;
+      @media screen and (max-width: 700px) {
+        background: url('../images/user-gruber.jpg') no-repeat right top;
+        background-size: cover;
+      }
+    }
   }
