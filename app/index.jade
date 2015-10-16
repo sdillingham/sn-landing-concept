@@ -62,13 +62,15 @@ html.no-js
         .bound
           h2.heading Sync notes across all your devices.
           p.prose From the start, Simplenote was built with sync in mind. Type a note on your iPhone, watch it magically update on your Mac. Simplenote elegantly handles the compexity of managing updates and saving versions, so you can write with confidence.
-        img(src="images/feature-sync.svg", alt="With Simplenote, sync just works.")
+        picture
+          source(media="(min-width: 601px)", srcset="images/feature-sync.svg", alt="With Simplenote, sync just works.")
+          img(src="images/feature-sync-stacked.svg", alt="With Simplenote, sync just works.")
       hr
       section#organized.feature
+        img(src="images/app-ui-light.svg", alt="Searching and tagging notes is fast and easy with Simplenote.")
         .bound
           h2.heading Stay organized.
           p.prose With instantaneous search, tags and full version history on each note, finding notes and keeping all of your work in order is a breeze. 
-        img(src="images/app-ui-light.svg", alt="Searching and tagging notes is fast and easy with Simplenote.")
       hr
     section.users
       .bound

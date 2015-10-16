@@ -2,11 +2,19 @@
   margin-top: grid-height(-3);
   min-height: grid-height(15);
   z-index: 1;
-  @media screen and (max-width: 480px) {
-    min-height: grid-height(12);
+  @media screen and (max-width: 600px) {
+    min-height: auto;
   }
   .bound {
     max-width: grid-calc(8);
+    @media screen and (max-width: 1000px) {
+      margin: 0 auto;
+      max-width: grid-calc(6);
+    }
+    @media screen and (max-width: 600px) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
   }
 }
   .slick-arrow {

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="211px" height="737px" viewBox="0 0 211 737" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Sync UI</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.192317708 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="83.1549296" height="87.712207"></rect>
+    </defs>
+    <g id="Mac-App-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-3268.000000, -1878.000000)">
+            <g id="Sync-UI" sketch:type="MSLayerGroup" transform="translate(3270.000000, 1879.000000)">
+                <g id="Fill-13-Copy-2-+-Line-+-Line-Copy-4" transform="translate(71.000000, 260.000000)" sketch:type="MSShapeGroup">
+                    <path d="M22.6301678,123.895649 C22.6301678,129.697101 27.9885993,133.060885 35.5573708,136.486609 L52.9094261,145.112361 L53.1336938,145.245234 C60.7671378,149.86082 64.2897041,155.935012 64.2897041,164.346968 C64.2897041,164.892446 64.2625834,165.434928 64.2271178,165.974412 C68.4829871,160.367773 71,153.464374 71,146.007505 C71,127.221469 55.1041195,112.000024 35.4989569,112.000024 C34.6060588,112.000024 22.6301678,111.904115 22.6301678,123.895649 M35.4989569,180 C15.8937943,180 0,164.781552 0,146.007505 C0,136.560538 4.02325684,128.015709 10.5155437,121.857598 C10.4174918,122.751743 10.3663797,123.669865 10.3663797,124.600974 C10.3663797,132.029871 13.9609203,137.913245 20.9685012,142.081259 C20.9685012,142.081259 37.7823142,150.537173 38.2704875,150.754965 C46.3900185,154.54634 52.1333559,157.705319 52.1333559,163.909386 C52.1333559,172.16749 44.7951106,180 35.4989569,180" id="Fill-13-Copy-2" fill="#448AC9"></path>
+                    <g id="Group" transform="translate(35.000000, 51.500000) rotate(-270.000000) translate(-35.000000, -51.500000) translate(-15.500000, 33.000000)">
+                        <path d="M0.503311258,20 L100.503311,20" id="Line" stroke="#ACD8FF" stroke-width="2" stroke-linecap="square" opacity="0.541744403"></path>
+                        <ellipse id="Oval-21-Copy" stroke="#E7F4FF" cx="51.3377483" cy="19" rx="18.1192053" ry="18"></ellipse>
+                        <ellipse id="Oval-21-Copy-2" stroke="#ABD7FF" fill="#FAFAFA" cx="51.3377483" cy="19" rx="9.05960265" ry="9"></ellipse>
+                        <ellipse id="Oval-21" fill="#448AC9" cx="51.3377483" cy="19" rx="5.03311258" ry="5"></ellipse>
+                    </g>
+                    <path d="M35,290 L35,190" id="Line-Copy-4" stroke="#ACD8FF" stroke-width="2" stroke-linecap="square" opacity="0.541744403"></path>
+                </g>
+                <g id="Group" transform="translate(0.000000, 560.000000)">
+                    <g id="iMac-27&quot;" sketch:type="MSShapeGroup">
+                        <path d="M80.753759,141.529126 C80.753759,141.529126 79.1703469,169.676375 77.9827878,171.262136 C76.7952287,172.847896 68.0864621,172.847896 68.4823151,173.640777 C68.8410507,174.359312 86.2957027,174.433565 103.911161,174.433564 C121.52662,174.433563 138.981272,174.359312 139.340007,173.640777 C139.73586,172.847896 131.027094,172.847896 129.839535,171.262136 C128.651976,169.676375 127.068564,141.529126 127.068564,141.529126 L103.911161,141.529126 L80.753759,141.529126 Z" id="Foot" stroke="#ABABAB" stroke-width="1.00574713" fill="#FFFFFF"></path>
+                        <rect id="blackglass" stroke="#AAAAAA" stroke-width="1.00574713" fill="#FFFFFF" x="0" y="0" width="207" height="151" rx="5.94999981"></rect>
+                        <path d="M0.5,131.5 L207.792068,131.5" id="Line" stroke="#AAAAAA" stroke-linecap="square"></path>
+                        <rect id="pixels" stroke="#CCCCCC" stroke-width="1.00574713" stroke-linejoin="round" fill="#FFFFFF" x="9.15576923" y="9.11812298" width="189.086538" height="112.985437"></rect>
+                    </g>
+                    <g id="Mac-App-UI-Light-Copy" transform="translate(23.000000, 16.000000)">
+                        <rect id="App-Window" stroke="#BFBFBF" stroke-width="0.5" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0" y="0" width="161" height="100" rx="0.81061911"></rect>
+                        <g id="#-Proposed-Producer-" transform="translate(60.845070, 12.287793)">
+                            <mask id="mask-3" sketch:name="Mask" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                        </g>
+                        <path id="Toolbar-Divider" stroke="#E0E0E0" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup" d="M0.0405633803,5.86095392 L143.959437,5.86095392"></path>
+                        <g id="OS-Window-Controls" transform="translate(1.622535, 2.021019)" sketch:type="MSShapeGroup">
+                            <ellipse id="Red" fill="#FF6057" cx="0.973521127" cy="0.970088925" rx="0.973521127" ry="0.970088925"></ellipse>
+                            <ellipse id="Yellow" fill="#FFC02F" cx="4.21859155" cy="0.970088925" rx="0.973521127" ry="0.970088925"></ellipse>
+                            <ellipse id="Green" fill="#29CD42" cx="7.46366197" cy="0.970088925" rx="0.973521127" ry="0.970088925"></ellipse>
+                        </g>
+                        <path id="Line" stroke="#E5E5E5" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup" d="M60.9667606,5.94179466 L60.9667606,99.7979376"></path>
+                        <path d="M6.5,10 L15.5,10" id="Line-Copy-6" stroke="#448AC9" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M6.5,15 L15.5,15" id="Line-Copy-7" stroke="#448AC9" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M6.5,22.5 L12.5,22.5" id="Line-Copy-8" stroke="#6CBAFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M6.5,25.5 L12.5,25.5" id="Line-Copy-9" stroke="#6CBAFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <path d="M6.5,28.5 L12.5,28.5" id="Line-Copy-10" stroke="#6CBAFF" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                        <text id="Hamlet-Copy" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="12" font-weight="normal" fill="#448AC9">
+                            <tspan x="64" y="18">Hamlet</tspan>
+                        </text>
+                        <text id="To-be-or-not-to-be…" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="10" font-weight="normal" fill="#444444">
+                            <tspan x="64" y="36">To be or not to be…</tspan>
+                        </text>
+                        <g id="Add-Icon" transform="translate(57.032113, 1.859337)" stroke-linecap="square" stroke-width="0.5" stroke="#ADADAD" sketch:type="MSShapeGroup">
+                            <path id="Line" d="M0.973521127,0 L0.973521127,1.94017785"></path>
+                            <path id="Line-Copy" d="M1.94704225,0.970088925 L0,0.970088925"></path>
+                        </g>
+                        <path d="M6.08450704,96.0388036 C6.08450704,95.9495015 6.01187155,95.8771221 5.92225352,95.8771221 C5.87849915,95.8771221 5.83885521,95.894422 5.80964958,95.9224468 L5.80959549,95.9223929 L4.9483538,96.7805982 L4.09825352,95.933495 C4.06850704,95.899003 4.02442817,95.8771221 3.97521127,95.8771221 C3.88559324,95.8771221 3.81295775,95.9495015 3.81295775,96.0388036 C3.81295775,96.0821881 3.83015662,96.1215845 3.85811831,96.1506333 L3.85768563,96.1510644 L4.83120676,97.1211533 L4.83126085,97.1210994 C4.86079099,97.1516033 4.90216563,97.170574 4.9480293,97.170574 L4.94840789,97.170574 L4.94878648,97.170574 C4.99470423,97.170574 5.0359707,97.1516033 5.06555493,97.1210994 L5.06560901,97.1211533 L6.03913014,96.1510644 L6.03907606,96.1510105 C6.0672,96.1219617 6.08450704,96.0824037 6.08450704,96.0388036 L6.08450704,96.0388036 Z" id="Shape" fill="#C1C1C1" sketch:type="MSShapeGroup" transform="translate(4.948732, 96.523848) rotate(-270.000000) translate(-4.948732, -96.523848) "></path>
+                        <path id="Line" stroke="#E6E6E6" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup" d="M65.5909859,93.3306386 L142.641978,93.3306386"></path>
+                        <path id="Line-Copy-2" stroke="#E6E6E6" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup" d="M24.4596141,93.3306386 L56.028788,93.3306386"></path>
+                    </g>
+                    <g id="Line-+-Line-Copy-5" transform="translate(48.000000, 26.000000)" stroke="#656363" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M1.5,1.5 L27.5,1.5" id="Line" stroke-width="3"></path>
+                        <path d="M0.5,5.5 L28.5,5.5" id="Line-Copy-5"></path>
+                    </g>
+                    <g id="Line-+-Line-Copy-6" transform="translate(48.000000, 52.000000)" stroke="#656363" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M1.5,1.5 L27.5,1.5" id="Line" stroke-width="3"></path>
+                        <path d="M0.5,5.5 L28.5,5.5" id="Line-Copy-5"></path>
+                    </g>
+                    <g id="Line-+-Line-Copy-8" transform="translate(48.000000, 39.000000)" stroke="#448AC9" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M1.5,1.5 L27.5,1.5" id="Line" stroke-width="3"></path>
+                        <path d="M0.5,5.5 L28.5,5.5" id="Line-Copy-5"></path>
+                    </g>
+                    <g id="Line-+-Line-Copy-7" transform="translate(48.000000, 65.000000)" stroke="#656363" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M1.5,1.5 L27.5,1.5" id="Line" stroke-width="3"></path>
+                        <path d="M0.5,5.5 L28.5,5.5" id="Line-Copy-5"></path>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(46.000000, 0.000000)">
+                    <rect id="body-copy" fill="#FFFFFF" sketch:type="MSShapeGroup" x="1.38346129" y="0.931679898" width="118.983675" height="248.447973" rx="18.6206897"></rect>
+                    <g id="iPhone-5s-Copy-2" sketch:type="MSShapeGroup" stroke-linejoin="round">
+                        <rect id="btn-power" stroke="#8C8C8C" x="80.9146547" y="0" width="18.7868961" height="3.72671959" rx="0.620689655"></rect>
+                        <rect id="btn-silent" stroke="#8C8C8C" transform="translate(2.322806, 40.372796) rotate(-270.000000) translate(-2.322806, -40.372796) " x="-3.31326273" y="38.5094358" width="11.2721376" height="3.72671959" rx="0.620689655"></rect>
+                        <rect id="Rectangle-13" stroke="#8C8C8C" transform="translate(2.635921, 62.422553) rotate(-270.000000) translate(-2.635921, -62.422553) " x="-1.74768805" y="60.2486334" width="8.76721817" height="4.34783952" rx="0.620689655"></rect>
+                        <rect id="Rectangle-13" stroke="#8C8C8C" transform="translate(2.635921, 82.919511) rotate(-270.000000) translate(-2.635921, -82.919511) " x="-1.74768805" y="80.7455911" width="8.76721817" height="4.34783952" rx="0.620689655"></rect>
+                        <path d="M20.0005467,0.931679898 C9.71861432,0.931679898 1.38346129,9.26903116 1.38346129,19.5548254 L1.38346129,230.756507 C1.38346129,241.041786 9.7257947,249.379653 20.0005467,249.379653 L102.758316,249.379653 C113.040248,249.379653 121.375401,241.042301 121.375401,230.756507 L121.375401,19.5548254 C121.375401,9.26954616 113.033068,0.931679898 102.758316,0.931679898 L20.0005467,0.931679898 Z" id="body" stroke="#9F9F9F" fill="#FFFFFF"></path>
+                        <ellipse id="btn-home" stroke="#8C8C8C" fill="#FFFFFF" cx="60.8752989" cy="229.503815" rx="9.70656298" ry="9.62735894"></ellipse>
+                        <rect id="speaker" stroke="#8C8C8C" fill="#FFFFFF" x="51.1687359" y="20.8075177" width="19.413126" height="1.8633598" rx="1.55172414"></rect>
+                    </g>
+                    <rect id="Screen" stroke="#BDBDBD" stroke-linejoin="round" fill="#FFFFFF" sketch:type="MSShapeGroup" x="11.0909091" y="34" width="100.196779" height="176.398061"></rect>
+                    <text id="To-be-or-not-to-be…" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="10" font-weight="normal" line-spacing="9" fill="#444444">
+                        <tspan x="16.1322314" y="98">To be or not to be…</tspan>
+                        <tspan x="18.0522314" y="107"></tspan>
+                        <tspan x="16.1322314" y="116">That is the quest</tspan>
+                    </text>
+                    <text id="Hamlet" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="12" font-weight="normal" fill="#448AC9">
+                        <tspan x="16.1322314" y="72.49">Hamlet</tspan>
+                    </text>
+                    <path d="M88.2231405,107.5 L88.2231405,118.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <path d="M11.5950413,54.5 L110.487229,54.5" id="Line" stroke="#E0EEFB" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <path d="M46.8842975,45.5 L74.1261037,45.5" id="Line" stroke="#448AC9" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                    <g id="Add-Icon-Copy" transform="translate(100.826446, 42.000000)" stroke="#448AC9" stroke-linecap="square" sketch:type="MSShapeGroup">
+                        <path d="M3.08780992,0 L3.08780992,6" id="Line"></path>
+                        <path d="M6.18158422,3 L0.00596438133,3" id="Line-Copy"></path>
+                    </g>
+                    <path d="M20.1652893,42.6075 L19.4868113,42 L16.1322314,45 L19.4868113,48 L20.1652893,47.3925 L17.4912879,45 L20.1652893,42.6075 Z" id="Shape" fill="#448AC9" sketch:type="MSShapeGroup"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
