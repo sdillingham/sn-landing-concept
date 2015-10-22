@@ -5,7 +5,21 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 101;
   &.fixed { display: none;}
+  &.fixed.active { 
+    background: $brand-color;
+    bottom: 0;
+    display: block;
+    margin: 0;
+    position: fixed;
+    .nav-item { 
+      @media screen and (max-width: 1000px) {
+        display: block;
+        margin-left: 0;
+      }
+    }
+  }
 }
   .logo { 
     display: block; 
@@ -41,6 +55,7 @@
         display: block;
       }
       img {
+        cursor: pointer;
         display: inline-block;
         vertical-align: middle;
       }
@@ -50,6 +65,11 @@
         margin: -2px 0 0 5px;
         vertical-align: middle;
       }
+    .icon-close {
+      position: absolute;
+      right: 20px;
+      top: 32px;
+    }
 
 .footer-nav {
   display: inline-block;

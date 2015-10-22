@@ -43,6 +43,7 @@
     position: absolute;
     left: 50%;
     top: 0;
+    max-width: 889px;
     @media screen and (max-width: 700px) {
       position: relative;
       left: auto;
@@ -60,7 +61,6 @@
       left: auto;
       top: auto;
       bottom: -400px;
-      max-width: inherit;
     }
   }
 }
@@ -90,7 +90,6 @@
     @media screen and (max-width: 700px) {
       position: relative;
       margin-top: -250px;
-      max-width: inherit;
       top: auto;
     }
   }
@@ -122,6 +121,9 @@
         span {
           display: block;
           padding-top: 10px;
+          @media screen and (max-width: 600px) {
+            padding-top: 12px;
+          }
           img {
             margin-left: 4px;
           }

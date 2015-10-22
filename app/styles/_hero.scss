@@ -5,7 +5,9 @@
   margin-bottom: grid-height(4);
   min-height: grid-height(18);
   padding-top: grid-height(6);
+  position: relative;
   text-align: center;
+  z-index: 100;
   @media screen and (max-width: 700px) {
     margin-bottom: grid-height(2);
     min-height: grid-height(15);

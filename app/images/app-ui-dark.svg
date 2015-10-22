@@ -13,7 +13,7 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <rect id="path-2" x="0" y="0" width="512.788732" height="542.938561"></rect>
+        <rect id="path-2" x="0" y="-2.27373675e-13" width="512.788732" height="542.938561"></rect>
     </defs>
     <g id="Mac-App-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-467.000000, -2261.000000)">
