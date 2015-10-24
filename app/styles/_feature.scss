@@ -50,9 +50,17 @@
       top: 40px;
     }
   }
+  img {
+    @media screen and (min-width: 1000px) {
+      display: none;
+    }
+  }
   video {
     max-width: 1400px;
     top: -20px;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
   }
 }
 #simplicity {

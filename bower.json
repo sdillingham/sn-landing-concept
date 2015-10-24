@@ -6,6 +6,7 @@
     "modernizr": "~2.8.2",
     "bourbon": "~4.2.5",
     "neat": "~1.7.2",
-    "slick-carousel": "slick.js#~1.5.8"
+    "slick-carousel": "slick.js#~1.5.8",
+    "waypoints": "jquery-waypoints#~4.0.0"
   }
 }
