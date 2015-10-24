@@ -3,7 +3,12 @@
   min-height: grid-height(15);
   z-index: 1;
   @media screen and (max-width: 600px) {
-    min-height: inherit;
+    min-height: grid-height(13);
+  }
+  .slick-slide {
+    @media screen and (max-width: 600px) {
+      min-height: grid-height(13);
+    }
   }
   .bound {
     max-width: grid-calc(8);
@@ -40,7 +45,7 @@
         height: 50%;
       }
     }
-    @media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+    @media screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
       bottom: 25px;
       img {
         width: 32px;
@@ -59,7 +64,7 @@
         margin-left: 9px !important;
       }
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
       img {
         margin-left: 0px !important;
       }
@@ -80,7 +85,7 @@
         margin-left: 6px !important;
       }
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
       bottom: 25px;
       img {
         margin-left: 0 !important;
@@ -102,7 +107,7 @@
       left: 0;
       margin: 0 0 0 20px;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
       display: none !important;
     }
     li {

@@ -10,5 +10,6 @@ $(document).ready(function(){
 
   $('.icon-menu, .icon-close').click(function() {
     $('.global.fixed').toggleClass('active');
+    $('body').toggleClass('locked');
   });
 });

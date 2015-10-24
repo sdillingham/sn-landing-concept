@@ -1,3 +1,12 @@
 hr { display: none; }
 a { text-decoration: none; }
 img { display: block; max-width: 100%; }
+
+// Prevent body scrolling when modals are active
+body.locked {
+  left: 0;
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
