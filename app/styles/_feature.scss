@@ -39,7 +39,7 @@
       text-align: center;
     }
   }
-  img {
+  img, video {
     position: absolute;
     left: 50%;
     top: 0;
@@ -50,12 +50,16 @@
       top: 40px;
     }
   }
+  video {
+    max-width: 1400px;
+    top: -20px;
+  }
 }
 #simplicity {
   @media screen and (max-width: 500px) {
     min-height: grid-height(18);
   }
-  img {
+  img, video {
     @media screen and (max-width: 700px) {
       position: absolute;
       left: auto;
@@ -85,13 +89,16 @@
   @media screen and (max-width: 480px) {
     padding-top: grid-height(1);
   }
-  img {
+  img, video {
     top: -150px;
     @media screen and (max-width: 700px) {
       position: relative;
       margin-top: -250px;
       top: auto;
     }
+  }
+  video {
+    max-width:1000px;
   }
 }
 #apps {
