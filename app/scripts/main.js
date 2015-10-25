@@ -25,6 +25,7 @@ $(document).ready(function(){
     entered: function(direction) {
       var videoSimplicity = document.getElementById('video-simplicity');
       videoSimplicity.play();
+      this.destroy();
     }
   });
   var triggerOrganized = new Waypoint.Inview({
@@ -32,6 +33,7 @@ $(document).ready(function(){
     entered: function(direction) {
       var videoOrganized = document.getElementById('video-organized');
       videoOrganized.play();
+      this.destroy();
     }
   });
 });
