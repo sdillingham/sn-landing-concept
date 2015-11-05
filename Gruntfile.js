@@ -69,7 +69,8 @@ module.exports = function (grunt) {
           '<%= config.app %>/{,*/}*.html',
           '<%= config.app %>/{,*/}*.jade',
           '.tmp/styles/{,*/}*.css',
-          '<%= config.app %>/images/{,*/}*'
+          '<%= config.app %>/images/{,*/}*',
+          '<%= config.app %>/media/{,*/}*.{mp4,ogv}'
         ]
       }
     },
@@ -232,6 +233,7 @@ module.exports = function (grunt) {
             '<%= config.dist %>/scripts/{,*/}*.js',
             '<%= config.dist %>/styles/{,*/}*.css',
             '<%= config.dist %>/images/{,*/}*.*',
+            '<%= config.dist %>/media/{,*/}*.*',
             '<%= config.dist %>/styles/fonts/{,*/}*.*',
             '<%= config.dist %>/*.{ico,png}'
           ]
@@ -255,6 +257,7 @@ module.exports = function (grunt) {
         assetsDirs: [
           '<%= config.dist %>',
           '<%= config.dist %>/images',
+          '<%= config.dist %>/media',
           '<%= config.dist %>/styles'
         ]
       },
@@ -344,6 +347,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
+            'media/{,*/}*.{mp4,ogv}',
             '{,*/}*.html',
             'styles/fonts/{,*/}*.*'
           ]
