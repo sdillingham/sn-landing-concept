@@ -393,7 +393,23 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
-    }
+    },
+
+    // Set up builds to gh-pages
+    buildcontrol: {
+        options: {
+          dir: 'dist',
+          commit: true,
+          push: true,
+          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        },
+        pages: {
+          options: {
+            remote: 'git@github.com:sdillingham/sn-landing-concept.git',
+            branch: 'gh-pages'
+          }
+        }
+      }
   });
 
 
