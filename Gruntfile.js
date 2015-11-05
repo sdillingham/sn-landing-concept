@@ -50,7 +50,7 @@ module.exports = function (grunt) {
       },
       sass: {
         files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['sass:server', 'autoprefixer']
+        tasks: ['sass', 'autoprefixer']
       },
       jade: {
         files: ['<%= config.app %>/{,*/}*.jade'],
@@ -381,7 +381,7 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up build process
     concurrent: {
       server: [
-        'sass:server',
+        'sass',
         'copy:styles'
       ],
       test: [
