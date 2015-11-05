@@ -23,7 +23,7 @@
 }
 
 #simplicity, #organized {
-  min-height: grid-height(16);
+  min-height: grid-height(11);
   .bound {
     max-width: grid-calc(8);
     padding-right: grid-calc(4.5);
@@ -64,6 +64,9 @@
   }
 }
 #simplicity {
+  @media screen and (max-width: 800px) {
+    min-height: grid-height(16);
+  }
   @media screen and (max-width: 500px) {
     min-height: grid-height(18);
   }
@@ -88,8 +91,8 @@
   }
 }
 #organized {
-  min-height: grid-height(19);
-  padding: grid-height(3) 0 0;
+  min-height: grid-height(16);
+  padding: grid-height(2) 0 0;
   @media screen and (max-width: 700px) {
     min-height: auto;
     padding: 0 0 grid-height(2);
